@@ -1,0 +1,334 @@
+{
+  "events": [
+    {
+      "date": "December",
+      "description": "End of Year Graduation",
+      "year": "2026",
+      "event_type": "graduation"
+    },
+    {
+      "date": "29 meetings",
+      "description": "Council meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "24 meetings",
+      "description": "Senate meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "141 meetings",
+      "description": "Management Committee meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "24 meetings",
+      "description": "Higher Degrees Committee meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "24 meetings",
+      "description": "Ethics Committee meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "9 meetings",
+      "description": "Research Committee meetings",
+      "year": "2026",
+      "event_type": "committee"
+    },
+    {
+      "date": "28 meetings",
+      "description": "Council meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "20 meetings",
+      "description": "Senate meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "130 meetings",
+      "description": "Management Committee meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "16 meetings",
+      "description": "Higher Degrees Committee meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "25 meetings",
+      "description": "Ethics Committee meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "5 meetings",
+      "description": "Research Committee meetings",
+      "year": "2024",
+      "event_type": "committee"
+    },
+    {
+      "date": "26 meetings",
+      "description": "Council meetings",
+      "year": "2025",
+      "event_type": "committee"
+    },
+    {
+      "date": "22 meetings",
+      "description": "Senate meetings",
+      "year": "2025",
+      "event_type": "committee"
+    },
+    {
+      "date": "142 meetings",
+      "description": "Management Committee meetings",
+      "year": "2025",
+      "event_type": "committee"
+    },
+    {
+      "date": "20 meetings",
+      "description": "Higher Degrees Committee meetings",
+      "year": "2025",
+      "event_type": "committee"
+    },
+    {
+      "date": "24 meetings",
+      "description": "Ethics Committee meetings",
+      "year": "2025",
+      "event_type": "committee"
+    },
+    {
+      "date": "6 meetings",
+      "description": "Research Committee meetings",
+      "year": "2025",
+      "event_type": "committee"
+    }
+  ],
+  "committee_counts": {
+    "Higher Degrees": {
+      "2026": 24,
+      "2025": 20,
+      "2024": 16
+    },
+    "Ethics": {
+      "2026": 24,
+      "2024": 25,
+      "2025": 24
+    },
+    "Research": {
+      "2024": 5,
+      "2025": 6,
+      "2026": 9
+    },
+    "Senate": {
+      "2025": 22,
+      "2024": 20,
+      "2026": 24
+    },
+    "Management": {
+      "2026": 141,
+      "2024": 130,
+      "2025": 142
+    },
+    "Council": {
+      "2025": 26,
+      "2024": 28,
+      "2026": 29
+    }
+  },
+  "term_dates": {
+    "2025": [
+      {
+        "term": 1,
+        "start": "January",
+        "end": "March"
+      },
+      {
+        "term": 2,
+        "start": "April",
+        "end": "June"
+      },
+      {
+        "term": 3,
+        "start": "July",
+        "end": "September"
+      },
+      {
+        "term": 4,
+        "start": "October",
+        "end": "December"
+      }
+    ],
+    "2026": [
+      {
+        "term": 1,
+        "start": "January",
+        "end": "March"
+      },
+      {
+        "term": 2,
+        "start": "April",
+        "end": "June"
+      },
+      {
+        "term": 3,
+        "start": "July",
+        "end": "September"
+      },
+      {
+        "term": 4,
+        "start": "October",
+        "end": "December"
+      }
+    ],
+    "2024": [
+      {
+        "term": 1,
+        "start": "January",
+        "end": "March"
+      },
+      {
+        "term": 2,
+        "start": "April",
+        "end": "June"
+      },
+      {
+        "term": 3,
+        "start": "July",
+        "end": "September"
+      },
+      {
+        "term": 4,
+        "start": "October",
+        "end": "December"
+      }
+    ]
+  },
+  "holidays": {
+    "2025": [
+      {
+        "name": "Human Rights Day",
+        "date": "22"
+      },
+      {
+        "name": "Good Friday",
+        "date": "19"
+      },
+      {
+        "name": "Family Day",
+        "date": "22"
+      },
+      {
+        "name": "Freedom Day",
+        "date": "28"
+      },
+      {
+        "name": "Workers Day",
+        "date": "2"
+      },
+      {
+        "name": "Youth Day",
+        "date": "17"
+      },
+      {
+        "name": "Heritage Day",
+        "date": "25"
+      },
+      {
+        "name": "Christmas Day",
+        "date": "26"
+      },
+      {
+        "name": "Day of Goodwill",
+        "date": "27"
+      }
+    ],
+    "2024": [
+      {
+        "name": "Human Rights Day",
+        "date": "22"
+      },
+      {
+        "name": "Good Friday",
+        "date": "30"
+      },
+      {
+        "name": "Family Day",
+        "date": "2"
+      },
+      {
+        "name": "Freedom Day",
+        "date": "28"
+      },
+      {
+        "name": "Workers Day",
+        "date": "2"
+      },
+      {
+        "name": "Youth Day",
+        "date": "17"
+      },
+      {
+        "name": "Heritage Day",
+        "date": "25"
+      },
+      {
+        "name": "Christmas Day",
+        "date": "26"
+      },
+      {
+        "name": "Day of Goodwill",
+        "date": "27"
+      }
+    ],
+    "2026": [
+      {
+        "name": "Human Rights Day",
+        "date": "22"
+      },
+      {
+        "name": "Good Friday",
+        "date": "45"
+      },
+      {
+        "name": "Family Day",
+        "date": "7"
+      },
+      {
+        "name": "Freedom Day",
+        "date": "28"
+      },
+      {
+        "name": "Workers Day",
+        "date": "23"
+      },
+      {
+        "name": "Youth Day",
+        "date": "17"
+      },
+      {
+        "name": "Heritage Day",
+        "date": "25"
+      },
+      {
+        "name": "Christmas Day",
+        "date": "26"
+      },
+      {
+        "name": "Day of Goodwill",
+        "date": "27"
+      }
+    ]
+  }
+}
