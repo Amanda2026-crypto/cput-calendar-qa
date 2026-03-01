@@ -44,15 +44,15 @@ This project implements a Question-Answering system that reads CPUT academic cal
 
 3\. Apply regex patterns to identify:
 
-&nbsp;  - Graduation dates
+   - Graduation dates
 
-&nbsp;  - Committee meetings
+   - Committee meetings
 
-&nbsp;  - Term start/end dates
+   - Term start/end dates
 
-&nbsp;  - Recess periods
+   - Recess periods
 
-&nbsp;  - Public holidays
+   - Public holidays
 
 4\. Store structured data in knowledge.json
 
@@ -70,15 +70,15 @@ The system successfully answers various types of questions:
 
 |----------|--------|
 
-| When is graduation in 2026? | In 2026, graduation ceremonies are held in April (Autumn) and December (Summer) |
+| When is graduation in 2026? | In 2026, graduation ceremonies are held in April (Autumn) and December (Summer). |
 
-| How many HDC meetings in 2024? | The Higher Degrees Committee met 16 times in 2024 |
+| How many HDC meetings in 2024? | The Higher Degrees Committee met 16 times in 2024. |
 
-| When does Term 1 start in 2026? | Term 1 starts on January in 2026 |
+| When does Term 1 start in 2026? | Term 1 starts in January 2026. |
 
-| What is the start date of winter recess 2025? | The winter recess in 2025 started in late June or early July |
+| What is the start date of winter recess 2025? | The winter recess in 2025 started in late June or early July. |
 
-| What date is Christmas? | Christmas Day is on 25 December |
+| What date is Christmas? | Christmas Day is on 25 December. |
 
 
 
@@ -96,31 +96,27 @@ The system successfully answers various types of questions:
 
 
 
-\## 5. Future Improvements
+\## 5. Conclusion
 
 
 
-\- Add more precise date extraction from calendar tables
+This project successfully demonstrates a Question-Answering system for CPUT academic calendars. Key achievements include:
 
-\- Implement fuzzy matching for question understanding
+\- Successfully extracting data from Word documents
 
-\- Add support for more question types
+\- Answering natural language questions about graduations, committees, and holidays
 
-\- Create web interface
+\- Handling misspellings and variations in questions
 
-
-
-\## 6. Conclusion
+\- Providing both single-question and interactive modes
 
 
 
-The CPUT Calendar Q\&A System successfully demonstrates:
+Future improvements could include:
 
-\- Document processing in Rust
+\- More precise date extraction from calendar tables
 
-\- Information extraction from Word documents
+\- Support for additional question types
 
-\- Natural language question answering
-
-\- Interactive user interface
+\- A web-based interface
 
