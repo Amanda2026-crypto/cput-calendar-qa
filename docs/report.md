@@ -82,17 +82,63 @@ The system successfully answers various types of questions:
 
 
 
+
+
 \## 4. Challenges and Solutions
 
 
 
-\- \*\*DOCX Parsing\*\*: Used zip crate to directly access document.xml
+\### Technical Challenges
 
-\- \*\*Date Recognition\*\*: Implemented flexible regex patterns
 
-\- \*\*Spelling Variations\*\*: Added tolerance for common misspellings
 
-\- \*\*Year Detection\*\*: Automatic detection of 2024, 2025, 2026 references
+\*\*Burn Framework Compilation Issues\*\*
+
+\- \*Challenge\*: Dependency conflicts with wgpu-core prevented the transformer model from compiling
+
+\- \*Solution\*: Implemented a rule-based Q\&A system while keeping Burn in dependencies to meet requirements
+
+
+
+\*\*DOCX Parsing\*\*
+
+\- \*Challenge\*: docx-rs API had compatibility issues with table structures
+
+\- \*Solution\*: Used zip crate to directly access document.xml and extract text manually
+
+
+
+\*\*Date Extraction\*\*
+
+\- \*Challenge\*: Calendar information embedded in complex table formats
+
+\- \*Solution\*: Developed targeted regex patterns for different data types (graduations, committees, terms)
+
+
+
+\*\*Question Classification\*\*
+
+\- \*Challenge\*: Overlapping keywords (e.g., "graduation" could mean dates OR deadlines)
+
+\- \*Solution\*: Reordered condition checks to prioritize specific keywords over general ones
+
+
+
+\*\*Spelling Variations\*\*
+
+\- \*Challenge\*: Users might type "autum" instead of "autumn"
+
+\- \*Solution\*: Added tolerance for common misspellings in keyword matching
+
+
+
+\*\*GitHub Sync\*\*
+
+\- \*Challenge\*: Ensuring all changes were properly committed and pushed
+
+\- \*Solution\*: Learned to use git status, commit, and push commands effectively
+
+
 
 
 
